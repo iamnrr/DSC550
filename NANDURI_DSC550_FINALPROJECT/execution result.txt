@@ -1,0 +1,257 @@
+Microsoft Windows [Version 10.0.17134.765]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT>cd dsc550
+
+C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\dsc550>python wf_endtoend_model.py
+Pick cleaned data from :  ..\data\interim\interimdata.csv
+Selected Vectorizer is :  CV
+Save model to :  C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\models\
+         txt  cat_txt
+cat                  
+0     408311   408311
+1     158246   158246
+2     775199   775199
+3    1005720  1005720
+Interim csv loaded
+Task1 done
+Max number of features selected :  20000
+Number of observations in train 103549
+Number of observations in train 34517
+20000
+(103549, 20000)
+selected vectorizer is :  CV
+(103549, 20000)
+(34517, 20000)
+C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\models\CV.pkl
+Vectorizer saved to location as :  C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\models\CV.pkl
+Task2 done
+Workflow 1 done
+Pick fitted model from :  C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\models\
+Pick cleaned data from :  ..\data\interim\interimdata.csv
+Selected Vectorizer is :  CV
+Save model to :  C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\models\
+Max number of features selected :  20000
+Number of observations in train 103549
+Number of observations in train 34517
+20000
+(103549, 20000)
+selected vectorizer is :  CV
+(103549, 20000)
+(34517, 20000)
+C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\models\CV.pkl
+Vectorizer saved to location as :  C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\models\CV.pkl
+Models being evaluated are :  ['LRL1', 'LRL2', 'NB', 'RF']
+Selected model is :  LRL1
+Max number of features selected :  20000
+Number of observations in train 103549
+Number of observations in train 34517
+20000
+(103549, 20000)
+selected vectorizer is :  CV
+(103549, 20000)
+(34517, 20000)
+C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\models\CV.pkl
+Vectorizer saved to location as :  C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\models\CV.pkl
+Model saved to location :  C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\models\LogisticRegressionL1.pkl
+
+ Confusion Matrix 
+
+[[ 1391    23   826  3952]
+ [  172   108   238  1824]
+ [  207     9  3179  7843]
+ [  243    14  1679 12809]]
+
+ Classification Report 
+
+              precision    recall  f1-score   support
+
+           0       0.69      0.22      0.34      6192
+           1       0.70      0.05      0.09      2342
+           2       0.54      0.28      0.37     11238
+           3       0.48      0.87      0.62     14745
+
+   micro avg       0.51      0.51      0.51     34517
+   macro avg       0.60      0.36      0.35     34517
+weighted avg       0.55      0.51      0.45     34517
+
+Accuracy :  0.5066199264130719
+Precision  0.5533619897054249
+Recall :  0.5066199264130719
+F1 Score  0.4531205302565046
+Selected model is :  LRL2
+Max number of features selected :  20000
+Number of observations in train 103549
+Number of observations in train 34517
+20000
+(103549, 20000)
+selected vectorizer is :  CV
+(103549, 20000)
+(34517, 20000)
+C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\models\CV.pkl
+Vectorizer saved to location as :  C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\models\CV.pkl
+Model saved to location :  C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\models\LogisticRegressionL2.pkl
+
+ Confusion Matrix 
+
+[[ 1440    38   856  3690]
+ [  196   104   267  1767]
+ [  223     7  3391  7822]
+ [  315    19  1808 12574]]
+
+ Classification Report 
+
+              precision    recall  f1-score   support
+
+           0       0.66      0.24      0.35      6024
+           1       0.62      0.04      0.08      2334
+           2       0.54      0.30      0.38     11443
+           3       0.49      0.85      0.62     14716
+
+   micro avg       0.51      0.51      0.51     34517
+   macro avg       0.58      0.36      0.36     34517
+weighted avg       0.54      0.51      0.46     34517
+
+Accuracy :  0.507257293507547
+Precision  0.5426355779710658
+Recall :  0.507257293507547
+F1 Score  0.45777395201512405
+Selected model is :  NB
+Max number of features selected :  20000
+Number of observations in train 103549
+Number of observations in train 34517
+20000
+(103549, 20000)
+selected vectorizer is :  CV
+(103549, 20000)
+(34517, 20000)
+C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\models\CV.pkl
+Vectorizer saved to location as :  C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\models\CV.pkl
+Model saved to location :  C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\models\NaiveBayes.pkl
+
+ Confusion Matrix 
+
+[[ 2176    18  1084  2721]
+ [  402   109   439  1419]
+ [  614    20  4528  6261]
+ [  859    49  3042 10776]]
+
+ Classification Report 
+
+              precision    recall  f1-score   support
+
+           0       0.54      0.36      0.43      5999
+           1       0.56      0.05      0.08      2369
+           2       0.50      0.40      0.44     11423
+           3       0.51      0.73      0.60     14726
+
+   micro avg       0.51      0.51      0.51     34517
+   macro avg       0.53      0.38      0.39     34517
+weighted avg       0.51      0.51      0.48     34517
+
+Accuracy :  0.5095749920329113
+Precision  0.5134127413547086
+Recall :  0.5095749920329113
+F1 Score  0.48327334247134224
+Selected model is :  RF
+Max number of features selected :  20000
+Number of observations in train 103549
+Number of observations in train 34517
+20000
+(103549, 20000)
+selected vectorizer is :  CV
+(103549, 20000)
+(34517, 20000)
+C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\models\CV.pkl
+Vectorizer saved to location as :  C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\models\CV.pkl
+Model saved to location :  C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\models\RandomForest.pkl
+
+ Confusion Matrix 
+
+[[ 1599   153  1070  3215]
+ [  316   170   382  1554]
+ [  677   130  3537  7005]
+ [ 1039   278  2826 10566]]
+
+ Classification Report 
+
+              precision    recall  f1-score   support
+
+           0       0.44      0.26      0.33      6037
+           1       0.23      0.07      0.11      2422
+           2       0.45      0.31      0.37     11349
+           3       0.47      0.72      0.57     14709
+
+   micro avg       0.46      0.46      0.46     34517
+   macro avg       0.40      0.34      0.34     34517
+weighted avg       0.44      0.46      0.43     34517
+
+Accuracy :  0.45983138743227975
+Precision  0.44369647664206224
+Recall :  0.45983138743227975
+F1 Score  0.42984825499266105
+[('LRL1', 'CV', 20000, 0.5066199264130719, 0.5533619897054249, 0.5066199264130719, 0.4531205302565046), ('LRL2', 'CV', 20000, 0.507257293507547, 0.5426355779710658, 0.507257293507547, 0.45777395201512405), ('NB', 'CV', 20000, 0.5095749920329113, 0.5134127413547086, 0.5095749920329113, 0.48327334247134224), ('RF', 'CV', 20000, 0.45983138743227975, 0.44369647664206224, 0.45983138743227975, 0.42984825499266105)]
+Model Evaluated
+Workflow 2 done
+  Model Vectorizer  Max features  Accuracy  Precision    Recall        F1
+0  LRL1         CV         20000  0.506620   0.553362  0.506620  0.453121
+1  LRL2         CV         20000  0.507257   0.542636  0.507257  0.457774
+2    NB         CV         20000  0.509575   0.513413  0.509575  0.483273
+3    RF         CV         20000  0.459831   0.443696  0.459831  0.429848
+Save evaluation report to :  C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\data\processed\
+Selected Vectorizer is :  CV
+Evaluation results exported
+Evaluated results are saved at :  C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\data\processed\
+Pick evaluated results from csv :  C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\reports\
+['C:\\Users\\nrrvlkp\\Documents\\M\\550\\Final Project\\DSC550\\NANDURI_DSC550_FINALPROJECT\\data\\processed\\eval_report_CV.csv', 'C:\\Users\\nrrvlkp\\Documents\\M\\550\\Final Project\\DSC550\\NANDURI_DSC550_FINALPROJECT\\data\\processed\\eval_report_TFIDF.csv']
+4
+4
+Model with better Accuracy is : 
+
+Unnamed: 0             2
+Model                 NB
+Vectorizer         TFIDF
+Max features       50000
+Accuracy        0.528754
+Precision       0.598511
+Recall          0.528754
+F1              0.478287
+Name: 6, dtype: object
+Workflow 3 done and report generated
+Pick cleaned data from :  ..\data\interim\interimdata.csv
+Selected Vectorizer is :  CV
+Save model to :  C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\models\
+Save model to :  C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\models\
+Use model  :  LRL1
+Use model  :  CV
+Save evaluation report to :  C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\reports\
+Sample Test is  :  I think the game has been hyped very well.\n\nThe playable demo, the great plateau. There's a lot of footage online but it only reveals the surface of the game. There's still of the game to see.\n\nThe trailer was excellent. Better than most movie trailers. It shows off the main characters and hints at a story but it's still very mysterious.\n\nLaunching with the Switch. This makes it doubly exciting for players like myself. I haven't owned a Nintendo since the GameCube (excluding handhelds) so to get my favorite series and a new console on the same day is going to give me a heart attack.\n\nThere are high expectations for this game. I think even a realistic expectation is an incredible game. The extra hype will hopefully exaggerate my experience, so I can ignore the small flaws and convince myself it's a 100/100 game.
+<class 'str'>
+<class 'list'>
+[' think game been hyped very wellthe playable demo great plateau theres footage online only reveals surface game theres still game seethe trailer excellent better than most movie trailers shows main characters hints story still very mysteriouslaunching with switch this makes doubly exciting players like myself havent owned nintendo since gamecube excluding handhelds favorite series console same going give heart attackthere high expectations this game think even realistic expectation incredible game extra hype will hopefully exaggerate experience ignore small flaws convince myself  game']
+C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\models\LogisticRegressionL1.pkl
+Pick cleaned data from :  ..\data\interim\interimdata.csv
+Save model to :  C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\models\
+140849
+138066
+Number of observations in train 103549
+Number of observations in train 34517
+Save model to :  C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\models\
+Max number of features selected :  20000
+Vectorizer saved to location as :  C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\models\CV
+[3] [' think game been hyped very wellthe playable demo great plateau theres footage online only reveals surface game theres still game seethe trailer excellent better than most movie trailers shows main characters hints story still very mysteriouslaunching with switch this makes doubly exciting players like myself havent owned nintendo since gamecube excluding handhelds favorite series console same going give heart attackthere high expectations this game think even realistic expectation incredible game extra hype will hopefully exaggerate experience ignore small flaws convince myself  game']
+Task8 done
+Evaluated results are saved at :  C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\data\processed\
+Pick evaluated results from csv :  C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\reports\
+   Unnamed: 0  ... PredictedLabelText
+0           0  ...        video_games
+
+[1 rows x 4 columns]
+Task9 done
+Workflow 4 executed to generate topic modelling report
+Entire end to end pipeline executed :
+Check the below directory for the reports generated
+
+    -  C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\reports\
+
+C:\Users\nrrvlkp\Documents\M\550\Final Project\DSC550\NANDURI_DSC550_FINALPROJECT\dsc550>
