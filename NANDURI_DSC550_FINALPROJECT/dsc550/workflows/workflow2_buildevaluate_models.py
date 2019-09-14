@@ -22,3 +22,4 @@ def train_wf():
     print(allmodels_evalresults)
     print('Model Evaluated')
     return allmodels_evalresults
+

@@ -30,5 +30,3 @@ def gen_report(eval_results):
     to_markdown(evalfileloc, reportpath)
     
     return True
-
-    
